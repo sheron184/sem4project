@@ -7,18 +7,76 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bs4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-				col
+		<div class="row justify-content-center position-relative">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 main-wrapper shadow-sm">
+				<div class="page-1">
+					<div class="upper">
+						<div><img src="imgs/injection.jpg"></div>
+					</div>
+					<div class="below">
+						<div class="d-flex justify-content-center pb-3">
+							<div class="spinner-border text-success"></div>
+						</div>
+					</div>
+					<div class="logo d-flex justify-content-center pb-3">
+						<h5>CO<i class="fa-solid fa-check"></i>AV</h5>
+					</div>
+				</div>
+				<div class="page-2 login-page">
+					<div class="navbar-sec">
+						<nav class="navbar navbar-expand-xl navbar-light pt-0">
+						  <a class="navbar-brand" href="#">CO<i class="fa-solid fa-check"></i>AV</a>
+						  <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon">☰</span>
+						  </button>
+						  <div class="collapse navbar-collapse" id="navbarNav">
+						    <ul class="navbar-nav">
+						      <li class="nav-item active">
+						        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						      </li>	      
+						    </ul>
+						  </div>
+						</nav>
+					</div>
+					<div class="head-sec">
+						<div class="green-bar mt-3 p-2">
+							<h3 align="center">COVID - 19</h3>
+							<p class="mb-1" align="center">Vaccination Passport</p>
+						</div>
+						<div class="login-form">
+							<form class="p-3">
+								<div class="form-group">
+									<h6 align="center">Login Form</h6>
+								</div>
+								<div class="form-group d-flex justify-content-center">
+									<input type="text" name="nic" class="lg-inp">
+								</div>
+								<div class="form-group d-flex justify-content-center">
+									<input type="text" name="nic" class="lg-inp">
+								</div>
+								<div class="d-flex justify-content-center">
+									<a href="#" class="btn btn-sm btn-success">Login</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="btns">
+				<div class="">
+					<a href="#" class="btn" onclick="openFullscreen()"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+					<a href="#" class="btn" onclick="closeFullscreen()"><i class="fa-solid fa-minimize"></i></a>
+				</div>
 			</div>
 		</div>
 	</div>
 </body>
+<script type="text/javascript" src="bs4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>
