@@ -68,6 +68,15 @@
 .p5{
 	height: 5%;
 }
+.p8{
+	height: 8%;
+}
+.p20{
+	height: 20%;
+}
+.p10{
+	height: 10%;
+}
 .p15{
 	height: 15%;
 }
@@ -76,6 +85,12 @@
 }
 .p70{
 	height: 70%;
+}
+.p72{
+	height: 72%;
+}
+.p75{
+	height: 75%;
 }
 .p60{
 	height: 60%;
@@ -98,4 +113,28 @@
 
 .bra{
 	border-radius: 30px !important;
+}
+.footer-nav{
+	
+}
+.footer-nav div{
+
+}
+.tab{
+	width: 25%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: green;
+}
+.tab a i{
+	font-size: 25px;
+    color: #fff;
+}
+.footer-nav div div:hover{
+	background-color: #034803;
+}
+.hdline i{
+	margin-right: 5px;
+	font-size: 20px;
+	color: #111;
 }
