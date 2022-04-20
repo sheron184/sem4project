@@ -14,9 +14,9 @@
 <body>
 	<div class="container">
 		<div class="row justify-content-center position-relative">
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 main-wrapper shadow">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 main-wrapper shadow pl-0 pr-0">
 				<!-- ==================== page 1 INTRO ===================== -->
-				<div class="page-1" id="1">
+				<div class="page page-1 pl-3 pr-3" id="1">
 					<div class="upper">
 						<div><img src="imgs/injection.jpg"></div>
 					</div>
@@ -30,7 +30,7 @@
 					</div>
 				</div>
 				<!-- ==================== page 2 LOGIN ===================== -->
-				<div class="page-2 h-100 hide" id="2">
+				<div class="page page-2 pl-3 pr-3 h-100 hide" id="2">
 					<div class="navbar-sec p5">
 						<nav class="navbar navbar-expand-xl navbar-light pt-0">
 						  <a class="navbar-brand" href="#">CO✔️AV</a>
@@ -66,23 +66,166 @@
 					</div>
 				</div>
 				<!-- ==================== page 3 PROFILE ===================== -->
-				<div class="page-3 hide" id="3">
-					<div class="navbar-sec">
-						<nav class="pt-0">
-						  <a class="navbar-brand text-dark" href="#">CO✔️AV</a>
-						</nav>
-					</div>
-					<div>
-						<div class="d-flex align-items-center pt-3">
-							<i class="fa-solid fa-user mr-2"></i><h5 class="mb-0">Profile</h5>
+				<div class="page page-3 hide h-100" id="3">
+					<div class="p20 pl-3 pr-3">
+						<div class="navbar-sec">
+							<nav class="pt-0">
+							  <a class="navbar-brand text-dark" href="#">CO✔️AV</a>
+							</nav>
+						</div>
+						<div>
+							<div class="d-flex align-items-center pt-3 hdline">
+								<div class="d-flex align-items-center"><i class="fa-solid fa-user mr-2"></i><h5 class="mb-0">Profile</h5></div>
+							</div>
 						</div>
 					</div>
-					<div class="">
+					<div class="p72 pl-3 pr-3">
+						<div>
+							<table class="table table-striped">
+							    <thead>
+							      <tr>
+							        <th>Vaccine</th>
+							        <th>Dose 1</th>
+							        <th>Dose 2</th>
+							      </tr>
+							    </thead>
+							    <tbody>
+							      <tr>
+							        <td>Moderna</td>
+							        <td>Taken</td>
+							        <td>Not Taken</td>
+							      </tr>
+							      <tr>
+							        <td>Pfizer</td>
+							        <td>Taken</td>
+							        <td>Taken</td>
+							      </tr>
+							      <tr>
+							        <td>Sputnik V</td>
+							        <td>Not Taken</td>
+							        <td>Not Taken</td>
+							      </tr>
+							      <tr>
+							        <td>AstraZeneca</td>
+							        <td>Not Taken</td>
+							        <td>Not Taken</td>
+							      </tr>
+							      <tr>
+							        <td>Covishield</td>
+							        <td>Taken</td>
+							        <td>Taken</td>
+							      </tr>
+							      <tr>
+							        <td>Sinopharm</td>
+							        <td>Taken</td>
+							        <td>Taken</td>
+							      </tr>
+							      <tr>
+							        <td>Sinovac</td>
+							        <td>Taken</td>
+							        <td>Taken</td>
+							      </tr>
+							    </tbody>
+							</table>
+						</div>
+					</div>
+					<div class="p8 footer">
+						<div class="footer-nav h-100">
+							<div class="d-flex footer-nav-btns h-100">
+								<div onclick="pageMove(3,3)" class="tab 3 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+								<div onclick="pageMove(3,8)" class="tab 8 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-bell"></i></a></div>
+								<div onclick="pageMove(3,9)" class="tab 9 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-qrcode"></i></a></div>
+								<div onclick="pageMove(3,10)" class="tab 10 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-address-book"></i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ==================== page 8 NOTIFICATION ===================== -->
+				<div class="page page-8 hide h-100" id="8">
+					<div class="p20 pl-3 pr-3">
+						<div class="navbar-sec">
+							<nav class="pt-0">
+							  <a class="navbar-brand text-dark" href="#">CO✔️AV</a>
+							</nav>
+						</div>
+						<div>
+							<div class="d-flex align-items-center pt-3 hdline">
+								<div class="d-flex align-items-center"><i class="fa-solid fa-circle-exclamation"></i><h5 class="mb-0">Important News</h5></div>
+							</div>
+						</div>
+					</div>
+					<div class="p72">
 						
+					</div>
+					<div class="p8 footer">
+						<div class="footer-nav h-100">
+							<div class="d-flex footer-nav-btns h-100">
+								<div onclick="pageMove(8,3)" class="tab 3 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+								<div onclick="pageMove(8,8)" class="tab 8 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-bell"></i></a></div>
+								<div onclick="pageMove(8,9)" class="tab 9 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-qrcode"></i></a></div>
+								<div onclick="pageMove(8,10)" class="tab 10 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-address-book"></i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ==================== page 9 QR ===================== -->
+				<div class="page page-9 hide h-100" id="9">
+					<div class="p20 pl-3 pr-3">
+						<div class="navbar-sec">
+							<nav class="pt-0">
+							  <a class="navbar-brand text-dark" href="#">CO✔️AV</a>
+							</nav>
+						</div>
+						<div>
+							<div class="d-flex align-items-center pt-3 hdline">
+								<div class="d-flex align-items-center"><i class="fa-solid fa-qrcode"></i><h5 class="mb-0">QR Code</h5></div>
+							</div>
+						</div>
+					</div>
+					<div class="p72">
+						
+					</div>
+					<div class="p8 footer">
+						<div class="footer-nav h-100">
+							<div class="d-flex footer-nav-btns h-100">
+								<div onclick="pageMove(9,3)" class="tab 3 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+								<div onclick="pageMove(9,8)" class="tab 8 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-bell"></i></a></div>
+								<div onclick="pageMove(9,9)" class="tab 9 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-qrcode"></i></a></div>
+								<div onclick="pageMove(9,10)" class="tab 10 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-address-book"></i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ==================== page 10 CONTACTS ===================== -->
+				<div class="page page-10 hide h-100" id="10">
+					<div class="p20 pl-3 pr-3">
+						<div class="navbar-sec">
+							<nav class="pt-0">
+							  <a class="navbar-brand text-dark" href="#">CO✔️AV</a>
+							</nav>
+						</div>
+						<div>
+							<div class="d-flex align-items-center pt-3 hdline">
+								<div class="d-flex align-items-center"><i class="fa-regular fa-address-book"></i><h5 class="mb-0">Contacts</h5></div>
+							</div>
+						</div>
+					</div>
+					<div class="p72">
+						
+					</div>
+					<div class="p8 footer">
+						<div class="footer-nav h-100">
+							<div class="d-flex footer-nav-btns h-100">
+								<div onclick="pageMove(10,3)" class="tab 3 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+								<div onclick="pageMove(10,8)" class="tab 8 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-bell"></i></a></div>
+								<div onclick="pageMove(10,9)" class="tab 9 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-qrcode"></i></a></div>
+								<div onclick="pageMove(10,10)" class="tab 10 d-flex align-items-center justify-content-center"><a href="#"><i class="fa-solid fa-address-book"></i></a></div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- ================================ page 4 SIGNUP =============================== -->
-				<div class="page-4 hide h-100" id="4">
+				<div class="page page-4 pl-3 pr-3 hide h-100" id="4">
 					<div class="navbar-sec">
 						<nav class="pt-0">
 						  <a href="#" class="mr-2 goleft" onclick="pageMove(4,2)"><i class="fa-solid fa-arrow-left"></i></a><a class="navbar-brand text-dark" href="#">CO✔️AV</a>
@@ -118,7 +261,7 @@
 					</div>
 				</div>
 				<!-- ================================ page 5 OTP-SIGNUP =============================== -->
-				<div class="page-5 hide h-100" id="5">
+				<div class="page page-5 pl-3 pr-3 hide h-100" id="5">
 					<div class="navbar-sec">
 						<nav class="pt-0">
 						  <a href="#" class="mr-2 goleft" onclick="pageMove(5,4)"><i class="fa-solid fa-arrow-left"></i></a><a class="navbar-brand text-dark" href="#">CO✔️AV</a>
@@ -142,7 +285,7 @@
 					</div>
 				</div>
 				<!-- ================================ page 6 OTP-LOGIN =============================== -->
-				<div class="page-6 hide h-100" id="6">
+				<div class="page page-6 pl-3 pr-3 hide h-100" id="6">
 					<div class="navbar-sec">
 						<nav class="pt-0">
 						  <a href="#" class="mr-2 goleft" onclick="pageMove(6,2)"><i class="fa-solid fa-arrow-left"></i></a><a class="navbar-brand text-dark" href="#">CO✔️AV</a>
@@ -166,7 +309,7 @@
 					</div>
 				</div>
 				<!-- ================================ page 7 RESET PASSWORD ============================== -->
-				<div class="page-7 hide h-100" id="7">
+				<div class="page page-7 pl-3 pr-3 hide h-100" id="7">
 					<div class="navbar-sec">
 						<nav class="pt-0">
 						  <a class="navbar-brand text-dark" href="#">CO✔️AV</a>
