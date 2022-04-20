@@ -80,11 +80,23 @@
 .p15{
 	height: 15%;
 }
+.p12{
+	height: 12%;
+}
+.p80{
+	height: 80%;
+}
 .p80{
 	height: 80%;
 }
 .p70{
 	height: 70%;
+}
+.p68{
+	height: 68%;
+}
+.p24{
+	height: 24%;
 }
 .p72{
 	height: 72%;
@@ -137,4 +149,28 @@
 	margin-right: 5px;
 	font-size: 20px;
 	color: #111;
+}
+.vcc{
+	background-color: #4caf50;
+	padding: 5px 10px;
+	border-radius: 20px;
+	color: #fff;
+}
+.gr{
+	background-color: #009688;
+	color: #fff;
+}
+.ash{
+	background-color: #e7e3e3;
+}
+.news{
+	border-radius: 10px;
+}
+.qr-img img{
+ 	width: 100%;
+ 	height: 340px;
+}
+.org{
+	background-color: #ff9800;
+	color: #fff;
 }
