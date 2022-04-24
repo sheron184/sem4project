@@ -23,14 +23,31 @@ setTimeout (function(){
 	$(".page-1").addClass("hide");
 	$(".page-2").removeClass("hide");
 },1200);
-
+function closenotf(){
+  $(".notf").addClass("hide");
+  $(".notf-msg").empty();
+}
+function printerr(msg){
+  $(".notf").removeClass("hide");
+  $(".notf-msg").text(msg);
+}
 function pageMove(from,to){
   var from_id = `#${from}`;
   var to_id = `#${to}`;
+  error = false;
 
-  $(from_id).addClass("hide");
-  $(to_id).removeClass("hide");
-
+  if(from == 2 && to == 3){
+    $(".inp-log").each(function(){
+      val = $(this).val();
+      console.log(val);
+      if(val == ""){
+        console.log('val');
+        $(this).css("border-bottom","2px solid red");
+        error = true;
+        printerr("Please fill all feilds!");
+      }
+    });
+  }
   if(to == 3 || to == 8 || to == 9 || to == 10){
     $(".page").each(function(){
       if(!$(this).hasClass("hide")){
@@ -47,5 +64,11 @@ function pageMove(from,to){
         });
       }
     });
+  }
+
+  //move
+  if(!error){
+    $(from_id).addClass("hide");
+    $(to_id).removeClass("hide");
   }
 }
