@@ -57,8 +57,8 @@
 	width: 100%;
 	padding: 4px;
 	border-radius: 0px !important;
-	border: none !important;
-	border-bottom: 1px solid #111111b8 !important;
+	border: none;
+	border-bottom: 1px solid #111111b8;
 }
 .loginbtn{
 	width: 100%;
